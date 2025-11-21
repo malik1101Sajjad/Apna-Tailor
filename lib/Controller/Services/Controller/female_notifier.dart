@@ -1,6 +1,5 @@
 import 'package:apna_tailor/Controller/Export/export_file.dart';
 
-
 class FemaleNotifier extends StateNotifier<List<Female>> {
   // 🧡 Female Repository
   final FemaleRepository femaleRepository;
@@ -35,6 +34,7 @@ class FemaleNotifier extends StateNotifier<List<Female>> {
 }
 
 // 🧡 Riverpod Provider
-final femaleProvider = StateNotifierProvider<FemaleNotifier, List<Female>>((ref) {
+final femaleProvider =
+    StateNotifierProvider<FemaleNotifier, List<Female>>((ref) {
   return FemaleNotifier(FemaleRepository());
 });

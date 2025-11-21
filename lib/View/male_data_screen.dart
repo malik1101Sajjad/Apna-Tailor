@@ -1,6 +1,5 @@
 import 'package:apna_tailor/Controller/Export/export_file.dart';
 
-
 // 🧡 Provider to Manage Search Query male
 final maleSearchQueryProvider = StateProvider<String>((ref) => "");
 
@@ -72,7 +71,8 @@ class _MaleDataScreenState extends ConsumerState<MaleDataScreen> {
                 ? Center(
                     child: AutoSizeText('No Male Data',
                         style: TextStyle(
-                            color:CustomColor.grey, fontWeight: FontWeight.bold)),
+                            color: CustomColor.grey,
+                            fontWeight: FontWeight.bold)),
                   )
                 : ListView.builder(
                     itemCount: filteredList.length,

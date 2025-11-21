@@ -1,0 +1,2 @@
+D:/Projects/flutter Projacts/apna_tailor/android/app/.cxx/Debug/3f3i2b5b/x86_64/CMakeFiles/edit_cache.dir
+D:/Projects/flutter Projacts/apna_tailor/android/app/.cxx/Debug/3f3i2b5b/x86_64/CMakeFiles/rebuild_cache.dir

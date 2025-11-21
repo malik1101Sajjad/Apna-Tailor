@@ -40,6 +40,7 @@ export 'package:apna_tailor/Model/female_model.dart';
 export 'package:apna_tailor/Model/male_model.dart';
 // 🧡 riverpod package
 export 'package:flutter_riverpod/flutter_riverpod.dart';
+export 'package:flutter_riverpod/legacy.dart';
 // 🧡 repository
 export 'package:apna_tailor/Controller/Services/Repository/male_repository.dart';
 export 'package:apna_tailor/Controller/Services/Repository/female_repository.dart';

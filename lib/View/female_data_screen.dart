@@ -66,7 +66,8 @@ class _FemaleDataScreenState extends ConsumerState<FemaleDataScreen> {
                 ? Center(
                     child: Text('No Female Data',
                         style: TextStyle(
-                            color: CustomColor.grey, fontWeight: FontWeight.bold)),
+                            color: CustomColor.grey,
+                            fontWeight: FontWeight.bold)),
                   )
                 : ListView.builder(
                     itemCount: filteredList.length,
